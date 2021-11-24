@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:cda31a35-fb4d-4fca-b0f9-e2d1e03149ca" version="1" xmlns="http://cyclonedx.org/schema/bom/1.3">
+  <metadata>
+    <timestamp>2021-11-24T10:11:19Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.5.3</version>
+        <hashes>
+          <hash alg="MD5">4f7d894200ad695fc9f0aad66d7da40a</hash>
+          <hash alg="SHA-1">c044d9b726650cbea3adeb5cc1715c67d8356c0a</hash>
+          <hash alg="SHA-256">b9a385e430e1f5efd9b835a084c195dde4d5e1bc79e469a8187ec58275c15313</hash>
+          <hash alg="SHA-384">d96f68ef4b8830d70dc2eb5f2de5211d96b70dd1169da641f34474265c06a5321b63d2c80fe2d82d74c767391225e480</hash>
+          <hash alg="SHA-512">1d7d1129cdc8604772b3c454d8dff98d936f85af705c95705e3263a038c0bb58fdd58c0b90efa3f56b4ce8ef9c84d3154b74b8451e0470f856f4d688489704b0</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.cyclonedx/cyclonedx-maven-plugin-test@1.0.0-SNAPSHOT?type=jar">
+      <group>org.cyclonedx</group>
+      <name>cyclonedx-maven-plugin-test</name>
+      <version>1.0.0-SNAPSHOT</version>
+      <licenses/>
+      <purl>pkg:maven/org.cyclonedx/cyclonedx-maven-plugin-test@1.0.0-SNAPSHOT?type=jar</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>2.9.8</version>
+      <description>General data-binding functionality for Jackson: works on core streaming API</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">39271d9bb1cb7ec563925953b1fa9ff7</hash>
+        <hash alg="SHA-1">11283f21cc480aa86c4df7a0a3243ec508372ed2</hash>
+        <hash alg="SHA-256">2351c3eba73a545db9079f5d6d768347ad72666537362c8220fe3e950a55a864</hash>
+        <hash alg="SHA-384">3982c76fad78894fe410b456bdfda7af8878dea99e10d9c8badd17e65dcfc7e36b83e8a781f5cd5cb66ba5c4e881abe1</hash>
+        <hash alg="SHA-512">720f2d2779cbfd4b470cb5106ab3944ef12717330534b94f99d8d81d1f07bba809a30bc92e296ecb31cb76c2feaa06870b7edff5a081c7efed9c3ac7e5cebe2f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-annotations</name>
+      <version>2.9.0</version>
+      <description>Core annotations used for value types, used by Jackson data binding package.</description>
+      <hashes>
+        <hash alg="MD5">c09faa1b063681cf45706c6df50685b6</hash>
+        <hash alg="SHA-1">07c10d545325e3a6e72e06381afe469fd40eb701</hash>
+        <hash alg="SHA-256">45d32ac61ef8a744b464c54c2b3414be571016dd46bfc2bec226761cf7ae457a</hash>
+        <hash alg="SHA-384">36289e4a5d6774c4fc6ed38a632a681759a4bc0389616a79edd22298dbcbe8f1bc7a107f00a9ec76b492d125c890a939</hash>
+        <hash alg="SHA-512">266589c36ea544ebca94aecd76ba9dfe88637563b94cf24e46846466b103074c9f95508bfa237c20d0ab9c60bfb6befa2628236dcf7222a69cf1ef9462bcf0b3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.8?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-core</name>
+      <version>2.9.8</version>
+      <description>Core Jackson processing abstractions (aka Streaming API), implementation for JSON</description>
+      <hashes>
+        <hash alg="MD5">65831e4f46f29db904708e4b9cc72843</hash>
+        <hash alg="SHA-1">0f5a654e4675769c716e5b387830d19b501ca191</hash>
+        <hash alg="SHA-256">d934dab0bd48994eeea2c1b493cb547158a338a80b58c4fbc8e85fb0905e105f</hash>
+        <hash alg="SHA-384">c942661395f4d14ba7b3f3caa5bdf8396c1e526fbfaac195298944c7078e4ba2799cdf512d77a5b733deefc97284945e</hash>
+        <hash alg="SHA-512">695c4bf0c5bf72910dc09cd6062faa7690ece110f874dade86d5e3d6ee5598e57572517200d7a31816ab599f01350e5aac9a671ffb826650f385ea97e4bc0d98</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.8?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.cyclonedx/cyclonedx-maven-plugin-test@1.0.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.8?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.8?type=jar"/>
+  </dependencies>
+</bom>
