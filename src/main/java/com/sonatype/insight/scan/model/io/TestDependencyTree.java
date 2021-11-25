@@ -48,5 +48,24 @@ public class TestDependencyTree
 
     String xml = xstream.toXML(projectItem);
     System.out.println(xml);
+    //produces below output
+    /*
+    <project id="moduleId" kind="moduleKind">
+      <dependencies>
+        <dep id="dep1" direct="true">
+          <dep id="dep11"/>
+          <dep id="dep12"/>
+        </dep>
+        <dep id="dep2" direct="true">
+          <dep id="dep21"/>
+          <dep id="dep22"/>
+        </dep>
+        <dep id="dep22" direct="true">
+          <dep id="dep221"/>
+          <dep id="dep222"/>
+        </dep>
+      </dependencies>
+    </project>
+     */
   }
 }
